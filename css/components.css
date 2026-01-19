@@ -1,12 +1,12 @@
 .btn {
   padding: 12px 20px;
-  border-radius: 8px;
+  border-radius: 0px;
   font-weight: 500;
   transition: 0.2s;
 }
 
 .btn-primary {
-  background: var(--color-accent);
+  background: #ff7300;
   color: #000;
 }
 
