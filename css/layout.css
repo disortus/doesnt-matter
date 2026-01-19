@@ -30,3 +30,16 @@ main {
   grid-template-columns: 260px 1fr;
   min-height: 100%;
 }
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+}
+
+.menu { 
+  list-style: none;
+  display: flex;
+  gap: 24px;
+}

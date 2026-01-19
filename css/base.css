@@ -1,7 +1,7 @@
 :root {
   --color-bg: #0f0f0f;
   --color-text: #f5f5f5;
-  --color-accent: #ff7a00;
+  --color-accent: #b700ff;
 
   --font-main: system-ui, sans-serif;
 }
@@ -26,4 +26,8 @@ p {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 16px;
+}
+
+.main {
+  background-color: white;
 }
