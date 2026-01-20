@@ -1,0 +1,12 @@
+.hero {
+height: 80vh;
+background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
+url('https://picsum.photos/1600/900?grayscale') center/cover no-repeat;
+display: flex;
+align-items: center;
+color: #fff;
+}
+.hero-content { max-width: 600px; }
+.hero h1 { font-size: 48px; margin-bottom: 16px; }
+.hero p { font-size: 18px; margin-bottom: 24px; }
+.btn { display: inline-block; padding: 12px 24px; background: #e16100; color: #fff; font-weight: bold; }
