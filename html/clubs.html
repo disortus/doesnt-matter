@@ -1,50 +1,218 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/reset.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Фитнес клубы</title>
+  <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/base.css">
     <link rel="stylesheet" href="../css/layout.css">
     <link rel="stylesheet" href="../css/components.css">
-    <link rel="stylesheet" href="../css/responsive.css" />
-    <title>Клубы</title>
+    <link rel="stylesheet" href="../css/responsive.css">
+  <link rel="stylesheet" href="../css/pages/clubs_page.css" />
 </head>
 <body>
-    <header class="header">
-      <nav class="navbar">
-        <a class="logo" href="../index.html">DOESN'T<span class="logo_matter">MATTER</span></a>
-        <ul class="menu">
-          <li><a href="./clubs.html">Клубы</a></li>
-          <li><a href="#">Тренировки</a></li>
-          <li><a href="./coachs.html">Тренеры</a></li>
-          <li><a>|</a></li>
-          <li><a href="./about.html">О нас</a></li>
-        </ul>
-      </nav>
+
+  <header class="header">
+        <nav class="navbar">
+            <a class="logo" href="../index.html">DOESN'T<span class="logo_matter">MATTER</span></a>
+            <ul class="menu">
+                <li><a href="./clubs.html">Клубы</a></li>
+                <li><a href="#">Тренировки</a></li>
+                <li><a href="#">Тренеры</a></li>
+                <li><a>|</a></li>
+                <li><a href="./about.html">О нас</a></li>
+            </ul>
+        </nav>
     </header>
-    
 
+  <main class="page">
+    <div class="container">
+      <div class="page__head">
+        <h1 class="page__title">Фитнес клубы</h1>
+        <p class="page__subtitle">Выбери удобный клуб — адрес, фото и стоимость абонемента.</p>
 
-    <footer>
-      <div class="container">
-        <div class="footer-grid">
-          <div>
-          <h4>О нас</h4>
-          <p>Команда, которая делает сильные проекты.</p>
-          </div>
-          <div>
-          <h4>Контакты</h4>
-          <p>email@example.com</p>
-          <p>+7 777 000 00 00</p>
-          </div>
-          <div>
-          <h4>Соцсети</h4>
-          <a href="https://www.instagram.com/invictusgo/">Instagram</a><br />
-          <a href="https://t.me/kysel_1">Telegram</a>
-          </div>
+        <div class="toolbar">
+          <input class="search" type="text" placeholder="Поиск по названию или адресу..." />
         </div>
       </div>
+
+      <section class="clubs-grid">
+
+        <article class="club-card">
+          <div class="club-card__media">
+            <img src="https://picsum.photos/800/450?random=11" alt="Клуб 1">
+            <div class="club-card__ribbon">-20% бонусами Halyk</div>
+          </div>
+
+          <div class="club-card__body">
+            <h3 class="club-card__title">DOESN'T MATTER Syganak</h3>
+            <p class="club-card__address">Сыганак 17П</p>
+
+            <div class="club-card__row">
+              <div class="price">
+                <span class="price__value">770 000 ₸</span>
+                <span class="price__period">в год</span>
+              </div>
+              <span class="tag">Премиум</span>
+            </div>
+
+            <div class="club-card__actions">
+              <a class="btn btn-primary" href="#">Подробнее</a>
+              <a class="btn btn-ghost" href="#">Оставить заявку</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="club-card">
+          <div class="club-card__media">
+            <img src="https://picsum.photos/800/450?random=12" alt="Клуб 2">
+            <div class="club-card__ribbon">-20% бонусами Halyk</div>
+          </div>
+
+          <div class="club-card__body">
+            <h3 class="club-card__title">DOESN'T MATTER Samal</h3>
+            <p class="club-card__address">мкрн. Самал-1, ул. Жолдасбекова, 9а</p>
+
+            <div class="club-card__row">
+              <div class="price">
+                <span class="price__value">350 000 ₸</span>
+                <span class="price__period">в год</span>
+              </div>
+              <span class="tag">Тренажёрный зал</span>
+            </div>
+
+            <div class="club-card__actions">
+              <a class="btn btn-primary" href="#">Подробнее</a>
+              <a class="btn btn-ghost" href="#">Оставить заявку</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="club-card">
+          <div class="club-card__media">
+            <img src="https://picsum.photos/800/450?random=13" alt="Клуб 3">
+            <div class="club-card__ribbon">-20% бонусами Halyk</div>
+          </div>
+
+          <div class="club-card__body">
+            <h3 class="club-card__title">DOESN'T MATTER Gagarin</h3>
+            <p class="club-card__address">пр-т. Гагарина, 286</p>
+
+            <div class="club-card__row">
+              <div class="price">
+                <span class="price__value">280 000 ₸</span>
+                <span class="price__period">в год</span>
+              </div>
+              <span class="tag">Кардио</span>
+            </div>
+
+            <div class="club-card__actions">
+              <a class="btn btn-primary" href="#">Подробнее</a>
+              <a class="btn btn-ghost" href="#">Оставить заявку</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="club-card">
+          <div class="club-card__media">
+            <img src="https://picsum.photos/800/450?random=14" alt="Клуб 4">
+            <div class="club-card__ribbon">-20% бонусами Halyk</div>
+          </div>
+
+          <div class="club-card__body">
+            <h3 class="club-card__title">DOESN'T MATTER Amman</h3>
+            <p class="club-card__address">Амман 21</p>
+
+            <div class="club-card__row">
+              <div class="price">
+                <span class="price__value">770 000 ₸</span>
+                <span class="price__period">в год</span>
+              </div>
+              <span class="tag">Бассейн</span>
+            </div>
+
+            <div class="club-card__actions">
+              <a class="btn btn-primary" href="#">Подробнее</a>
+              <a class="btn btn-ghost" href="#">Оставить заявку</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="club-card">
+          <div class="club-card__media">
+            <img src="https://picsum.photos/800/450?random=15" alt="Клуб 5">
+            <div class="club-card__ribbon">-20% бонусами Halyk</div>
+          </div>
+
+          <div class="club-card__body">
+            <h3 class="club-card__title">DOESN'T MATTER Al-Farabi</h3>
+            <p class="club-card__address">Аль-Фараби, 77/8</p>
+
+            <div class="club-card__row">
+              <div class="price">
+                <span class="price__value">850 000 ₸</span>
+                <span class="price__period">в год</span>
+              </div>
+              <span class="tag">Спа</span>
+            </div>
+
+            <div class="club-card__actions">
+              <a class="btn btn-primary" href="#">Подробнее</a>
+              <a class="btn btn-ghost" href="#">Оставить заявку</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="club-card">
+          <div class="club-card__media">
+            <img src="https://picsum.photos/800/450?random=16" alt="Клуб 6">
+            <div class="club-card__ribbon">-20% бонусами Halyk</div>
+          </div>
+
+          <div class="club-card__body">
+            <h3 class="club-card__title">DOESN'T MATTER Atyrau</h3>
+            <p class="club-card__address">ул. О. Атамбаева 7Б</p>
+
+            <div class="club-card__row">
+              <div class="price">
+                <span class="price__value">550 000 ₸</span>
+                <span class="price__period">в год</span>
+              </div>
+              <span class="tag">Кроссфит</span>
+            </div>
+
+            <div class="club-card__actions">
+              <a class="btn btn-primary" href="#">Подробнее</a>
+              <a class="btn btn-ghost" href="#">Оставить заявку</a>
+            </div>
+          </div>
+        </article>
+
+      </section>
+    </div>
+  </main>
+
+  <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <h4>О нас</h4>
+                    <p>Команда, которая делает сильные проекты.</p>
+                </div>
+                <div>
+                    <h4>Контакты</h4>
+                    <p>email@example.com</p>
+                    <p>+7 777 000 00 00</p>
+                </div>
+                <div>
+                    <h4>Соцсети</h4>
+                    <a href="https://www.instagram.com/invictusgo/">Instagram</a><br />
+                    <a href="https://t.me/kysel_1">Telegram</a>
+                </div>
+            </div>
+        </div>
     </footer>
+
 </body>
-</html>
+</htmlЮ
