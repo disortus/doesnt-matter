@@ -1,0 +1,26 @@
+/* ============ */
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .hero h1 {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 600px) {
+  nav {
+    display: none;
+  }
+  .grid,
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+  .hero {
+    height: 70vh;
+  }
+  .hero h1 {
+    font-size: 28px;
+  }
+}
