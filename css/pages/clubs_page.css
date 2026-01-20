@@ -10,7 +10,7 @@
   gap: 18px;
 }
 
-.nav__link{
+.nav_link{
   color: #ffffff;
   text-decoration: none;
   font-size: 14px;
@@ -20,7 +20,7 @@
   transition: 0.2s;
 }
 
-.nav__link:hover{
+.nav_link:hover{
   color: #f98526;
   background: #2a333d;
 }
@@ -29,17 +29,17 @@
   padding: 40px 0 60px;
 }
 
-.page__head{
+.page_head{
   margin-bottom: 22px;
 }
 
-.page__title{
+.page_title{
   margin: 0 0 8px;
   font-size: 40px;
   letter-spacing: 0.2px;
 }
 
-.page__subtitle{
+.page_subtitle{
   margin: 0 0 18px;
   color: #bdbdbd;
 }
@@ -84,13 +84,13 @@
   transform: translateY(-2px);
 }
 
-.club-card__media{
+.club-card_media{
   position: relative;
   height: 180px;
   overflow: hidden;
 }
 
-.club-card__media img{
+.club-card_media img{
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -98,7 +98,7 @@
   transform: scale(1.02);
 }
 
-.club-card__ribbon{
+.club-card_ribbon{
   position: absolute;
   left: 12px;
   top: 12px;
@@ -111,22 +111,22 @@
   backdrop-filter: blur(6px);
 }
 
-.club-card__body{
+.club-card_body{
   padding: 18px 18px 16px;
 }
 
-.club-card__title{
+.club-card_title{
   margin: 0 0 6px;
   font-size: 20px;
 }
 
-.club-card__address{
+.club-card_address{
   margin: 0 0 14px;
   color: #bdbdbd;
   font-size: 14px;
 }
 
-.club-card__row{
+.club-card_row{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -140,12 +140,12 @@
   gap: 10px;
 }
 
-.price__value{
+.price_value{
   font-size: 20px;
   font-weight: 700;
 }
 
-.price__period{
+.price_period{
   color: #bdbdbd;
   font-size: 13px;
 }
@@ -193,7 +193,7 @@
   background: #352a20;
 }
 
-.club-card__actions{
+.club-card_actions{
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
