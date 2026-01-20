@@ -30,7 +30,7 @@
   color: #858585;
 }
 
-.form-style{
+.form-style {
   flex: 1 1;
   display: flex;
   flex-direction: column;
@@ -39,7 +39,7 @@
   width: 100%;
 }
 
-.feedback{
+.feedback {
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -47,21 +47,21 @@
   max-width: 456px;
 }
 
-.feedback_label{
+.feedback_label {
   display: flex;
   flex-direction: column;
   gap: 8px;
 }
 
-.feedback_span{
-  font-size: .875rem;
+.feedback_span {
+  font-size: 0.875rem;
   line-height: 1.4285714286;
   letter-spacing: 0;
   font-weight: 500;
   color: #fafafa;
 }
 
-.inputer{
+.inputer {
   font-size: 1rem;
   line-height: 1.5;
   letter-spacing: 0;
@@ -69,21 +69,21 @@
   width: 100%;
   height: 44px;
   padding: 10px 16px;
-  background: rgba(246,246,246,.0784313725);
+  background: rgba(246, 246, 246, 0.0784313725);
   border-radius: 12px;
   color: #fafafa;
 }
 
-.icon{
+.icon {
   width: 24px;
   height: 24px;
 }
 
-.button_kz{
+.button_kz {
   cursor: pointer;
 }
 
-.Vector_vector__laLRU{
+.Vector_vector__laLRU {
   flex-shrink: 0;
   display: inline-block;
   vertical-align: middle;
@@ -95,21 +95,23 @@
   margin: 0;
   padding: 0;
   opacity: 1;
-  transition: opacity .2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
 }
 
-:where(:not(html, iframe, canvas, img, svg, video, audio):not(svg *, symbol *)) {
+:where(
+  :not(html, iframe, canvas, img, svg, video, audio):not(svg *, symbol *)
+) {
   all: unset;
-    display: unset;
-    box-sizing: unset;
+  display: unset;
+  box-sizing: unset;
   display: revert;
 }
 
-.club_adress{
+.club_adress {
   flex: 1 1;
 }
 
-.span_placeholder{
+.span_placeholder {
   font-size: 1rem;
   line-height: 1.5;
   letter-spacing: 0;
@@ -123,7 +125,7 @@
   color: #fff;
 }
 
-.forn_submit{
+.form_submit {
   display: flex;
   align-items: center;
   gap: 24px;
@@ -134,39 +136,75 @@
   height: 20px;
 }
 
-.button_club{
+.button_club {
   cursor: pointer;
-  opacity: .5;
+  opacity: 0.5;
+  background-color: #f98526;
 }
 
-.button_submit{
+.button_submit {
   cursor: not-allowed;
-  opacity: .5;
+  opacity: 0.5;
+  background-color: #f98526;
 }
+
 
 /* =========== */
 
-form { display: grid; gap: 16px; }
-label { font-size: 14px; color: #444; }
-input, select, textarea {
-width: 100%; padding: 12px; border: 1px solid #ccc; font-size: 14px;
+form {
+  display: grid;
+  gap: 16px;
 }
-textarea { min-height: 120px; resize: vertical; }
+label {
+  font-size: 14px;
+  color: #444;
+}
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+textarea {
+  min-height: 120px;
+  resize: vertical;
+}
 
-
-.row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
-
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
 
 .submit-btn {
-margin-top: 16px; padding: 14px; background: #000; color: #fff; border: none; cursor: pointer; font-size: 14px;
+  margin-top: 16px;
+  padding: 14px;
+  background: #f98526;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 10px;
 }
-.submit-btn:hover { opacity: .9; }
+.submit-btn:hover {
+  opacity: 0.9;
+}
 
-
-footer { text-align: center; padding: 24px 0; color: #777; font-size: 13px; }
-
+footer {
+  text-align: center;
+  padding: 24px 0;
+  color: #777;
+  font-size: 13px;
+}
 
 @media (max-width: 600px) {
-.row { grid-template-columns: 1fr; }
-.container { padding: 24px 12px; }
+  .row {
+    grid-template-columns: 1fr;
+  }
+  .container {
+    padding: 24px 12px;
+    background-color: #333;
+  }
 }
