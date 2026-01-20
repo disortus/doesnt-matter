@@ -1,37 +1,39 @@
 <!doctype html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/reset.css" />
-    <link rel="stylesheet" href="../css/base.css" />
-    <link rel="stylesheet" href="../css/layout.css" />
-    <link rel="stylesheet" href="../css/components.css" />
-    <link rel="stylesheet" href="./css/responsive.css" />
-    <link rel="stylesheet" href="../css//pages/form_page.css" />
-    <title>Форма обратной связи</title>
-  </head>
-  <body class="page">
-    <header class="header">
-      <nav class="navbar">
-        <a class="logo" href="../index.html">DOESN'T<span class="logo_matter">MATTER</span></a>
-        <ul class="menu">
-          <li><a href="./clubs.html">Клубы</a></li>
-          <li><a href="#">Тренировки</a></li>
-          <li><a href="#">Тренеры</a></li>
-          <li><a>|</a></li>
-          <li><a href="./about.html">О нас</a></li>
-        </ul>
-      </nav>
-    </header>
-    <div class="form_page">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../css/reset.css" />
+  <link rel="stylesheet" href="../css/base.css" />
+  <link rel="stylesheet" href="../css/layout.css" />
+  <link rel="stylesheet" href="../css/components.css" />
+  <link rel="stylesheet" href="./css/responsive.css" />
+  <link rel="stylesheet" href="../css//pages/form_page.css" />
+  <title>Форма обратной связи</title>
+</head>
+
+<body class="page">
+  <header class="header">
+    <nav class="navbar">
+      <a class="logo" href="../index.html">DOESN'T<span class="logo_matter">MATTER</span></a>
+      <ul class="menu">
+        <li><a href="./clubs.html">Клубы</a></li>
+        <li><a href="#">Тренировки</a></li>
+        <li><a href="#">Тренеры</a></li>
+        <li><a>|</a></li>
+        <li><a href="./about.html">О нас</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="form_page">
       <div class="title_container">
         <h1 class="form_title">Оставьте нам заявку</h1>
         <p class="page_disc">
           Позвоним вам сегодня или на следующий рабочий день
         </p>
       </div>
-      <form class="form-style">
+      <!-- <form class="form-style">
             <fieldset class="feedback">
                 <label class="feedback_label">
                     <span class="feedback_span">ФИО</span>
@@ -69,7 +71,7 @@
                 </label>
                 <label class="feedback_label">
                   <span class="feedback_span">Клуб</span>
-                  <button class="button_kz" type="button" disabled="" aria-haspopup="dialog" aria-expanded="false" aria-controls="redix- r 2" data-state="closed">
+                  <button class="button_club" type="button" disabled="" aria-haspopup="dialog" aria-expanded="false" aria-controls="redix- r 2" data-state="closed">
                     <div class="club_adress">
                         <span class="span_placeholder">Выберите клуб</span>
                     </div>
@@ -84,7 +86,7 @@
                 </label>
             </fieldset>
             <div class="form_submit">
-                <button class="button_kz" type="submit" disabled="" onclick="alert('Все давай до связи')">
+                <button class="button_submit" type="submit" disabled="" onclick="alert('Все давай до связи')">
                   <span>Отправить заявку</span>
                   <svg class="Vector_vector__laLRU FeedbackForm_icon__dGLfE" viewBox="0 0 20 20" focusable="false" aria-hidden="true">
                     <use href="/sprites/icons.fae60697.svg#arrow-right">
@@ -96,26 +98,81 @@
                 </button>
             </div>
       </form>
-    </div>
-    <footer>
-      <div class="container">
-        <div class="footer-grid">
+    </div> -->
+  <main class="container">
+    <div class="card">
+      <h1>Оставить заявку</h1>
+      <form class="form-style">
+        <div class="row">
+           <fieldset class="feedback">
+                <label class="feedback_label">
+                    <span class="feedback_span">ФИО</span>
+                    <input placeholder="Введите ФИО" value="" class="inputer">
+                </label>
+                <label class="feedback_label">
+                    <span class="feedback_span">Телефон</span>
+            <input placeholder="+7 (700) 000 00 00" value="" class="inputer">
+                </label>
+          </div>
+        </div>
+
+
+        <div class="row">
           <div>
+            <label class="feedback_label">
+              <span class="feedback_span">Email</span>
+            <input type="email" placeholder="example@mail.com" class="inputer"/>
+            </label>
+          </div>
+          <div></div>
+          <div>
+            <label class="feedback_label">
+              <span class="feedback_span">Услуга</span>
+            <select required class="inputer">
+              <option value="">Выберите услугу</option>
+              <option>Абонемент</option>
+              <option>Тренировки</option>
+              <option>Консультация</option>
+            </select>
+            </label>
+          </div>
+        </div>
+
+
+        <div>
+          <label class="feedback_label">
+            <span class="feedback_span">Сообщение</span>
+          <textarea placeholder="Напишите ваш вопрос" class="inputer"></textarea>
+          </label>
+        </div>
+
+
+        <button type="submit" class="submit-btn" onclick="alert('Все давай до связи')">Отправить заявку</button>
+      </fieldset>
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div>
           <h4>О нас</h4>
           <p>Команда, которая делает сильные проекты.</p>
-          </div>
-          <div>
+        </div>
+        <div>
           <h4>Контакты</h4>
           <p>email@example.com</p>
           <p>+7 777 000 00 00</p>
-          </div>
-          <div>
+        </div>
+        <div>
           <h4>Соцсети</h4>
           <a href="https://www.instagram.com/invictusgo/">Instagram</a><br />
           <a href="https://t.me/kysel_1">Telegram</a>
-          </div>
         </div>
       </div>
-    </footer>
-  </body>
+    </div>
+  </footer>
+</body>
+
 </html>
