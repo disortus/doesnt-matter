@@ -73,3 +73,64 @@
   border-radius: 12px;
   color: #fafafa;
 }
+
+.icon{
+  width: 24px;
+  height: 24px;
+}
+
+.button_kz{
+  cursor: pointer;
+}
+
+.Vector_vector__laLRU{
+  flex-shrink: 0;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  color: inherit;
+  box-sizing: initial;
+  margin: 0;
+  padding: 0;
+  opacity: 1;
+  transition: opacity .2s ease-in-out;
+}
+
+:where(:not(html, iframe, canvas, img, svg, video, audio):not(svg *, symbol *)) {
+  all: unset;
+    display: unset;
+    box-sizing: unset;
+  display: revert;
+}
+
+.club_adress{
+  flex: 1 1;
+}
+
+.span_placeholder{
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: 0;
+  font-weight: 400;
+  color: #b8b8b8;
+}
+
+.FeedbackForm_feedback_form_club_trigger__lc_Wm > .FeedbackForm_icon__dGLfE {
+  width: 20px;
+  height: 20px;
+  color: #fff;
+}
+
+.forn_submit{
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.FeedbackForm_feedback_form_submit_button__fzFFw > .FeedbackForm_icon__dGLfE {
+  width: 20px;
+  height: 20px;
+}
+
