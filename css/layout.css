@@ -35,7 +35,8 @@ main {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 80px;
+  height: 60px;
+  border-bottom: 1px solid #7a7a7a;
 }
 
 .menu { 

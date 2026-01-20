@@ -6,7 +6,7 @@
 }
 
 .btn-primary {
-  background: #ff7300;
+  background: #f98526;
   color: #000;
 }
 
@@ -25,7 +25,19 @@
   border-radius: 6px;
   border: 1px solid #333;
   background: #111;
-  color: white;
 }
 
+<<<<<<< Updated upstream
 
+=======
+.logo {
+  display: flex;
+  align-items: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  scale: 1.5;
+}
+
+.logo_matter {
+  color: #f98526;
+}
+>>>>>>> Stashed changes
